@@ -1,7 +1,14 @@
 import React from "react";
+import Header from "./components/header";
+import AboutUs from "./components/aboutUs";
 
 function App() {
-  return <div>SPA - Demo</div>;
+  return (
+    <React.Fragment>
+      <Header />
+      <AboutUs />
+    </React.Fragment>
+  );
 }
 
 export default App;

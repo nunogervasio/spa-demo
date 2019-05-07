@@ -1,8 +1,6 @@
-import React from "react";
 import styled from "styled-components";
 
 export const Button = styled.button`
-  /* Adapt the colors based on primary prop */
   background: ${props => (props.primary ? "palevioletred" : "white")};
   color: ${props => (props.primary ? "white" : "palevioletred")};
 
@@ -12,12 +10,3 @@ export const Button = styled.button`
   border: 2px solid palevioletred;
   border-radius: 3px;
 `;
-
-// render(
-//   <div>
-//     <Button>Normal</Button>
-//     <Button primary>Primary</Button>
-//   </div>
-// );
-
-// export default Button;
