@@ -16,7 +16,7 @@ const CardContainer = styled.div`
   margin: 0.75em;
   padding: 0.5em;
   background-color: white;
-  border-radius: 3%;
+  border-radius: 2%;
 `;
 
 const Card = () => {
