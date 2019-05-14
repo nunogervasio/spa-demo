@@ -1,11 +1,11 @@
 import React from "react";
-import Header from "./components/header";
-import AboutUs from "./components/aboutUs";
+import AboutUs from "./AboutUs";
+import NavagationBar from "./NavagationBar";
 
 function App() {
   return (
     <React.Fragment>
-      <Header />
+      <NavagationBar />
       <AboutUs />
     </React.Fragment>
   );
