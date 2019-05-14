@@ -4,22 +4,17 @@ import Card from "./card";
 import { Section } from "./section";
 import { Container } from "./container";
 
-const Wrapper = styled.div`
-  display: flex;
-  justify-content: center;
-`;
-const AboutUs = () => {
+// const AboutUs = () => {
+export default () => {
   return (
     <Section>
-      {/* <Wrapper> */}
       <Container>
         <Card />
         <Card />
         <Card />
       </Container>
-      {/* </Wrapper> */}
     </Section>
   );
 };
 
-export default AboutUs;
+// export default AboutUs;
